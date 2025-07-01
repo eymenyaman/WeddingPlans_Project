@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="8.0.7" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="ViewComponents\Index\" />
+    <Folder Include="ViewComponents\Gallery\" />
+    <Folder Include="ViewComponents\Contact\" />
+    <Folder Include="ViewComponents\Service\" />
+    <Folder Include="Views\Shared\Components\About\_SelectAboutViewComponentPartial\" />
+    <Folder Include="Views\Shared\Components\Contact\" />
+    <Folder Include="Views\Shared\Components\Gallery\" />
+    <Folder Include="Views\Shared\Components\Index\" />
+    <Folder Include="Views\Shared\Components\Service\" />
+  </ItemGroup>
+
+</Project>
