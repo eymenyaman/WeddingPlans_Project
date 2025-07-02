@@ -11,14 +11,14 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="ViewComponents\Index\" />
     <Folder Include="ViewComponents\Gallery\" />
     <Folder Include="ViewComponents\Contact\" />
+    <Folder Include="ViewComponents\Client\" />
+    <Folder Include="ViewComponents\Slider\" />
     <Folder Include="ViewComponents\Service\" />
     <Folder Include="Views\Shared\Components\About\_SelectAboutViewComponentPartial\" />
     <Folder Include="Views\Shared\Components\Contact\" />
     <Folder Include="Views\Shared\Components\Gallery\" />
-    <Folder Include="Views\Shared\Components\Index\" />
     <Folder Include="Views\Shared\Components\Service\" />
   </ItemGroup>
 
